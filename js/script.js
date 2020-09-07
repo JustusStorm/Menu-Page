@@ -1,5 +1,7 @@
 
+(document).ready(function () {
 
-$('div').on('click', function () {
-    $(this).toggleClass('.show-description');
+    $('div').on("click", function () {
+        $(this).toggleClass('.show-description');
+    });
 });
